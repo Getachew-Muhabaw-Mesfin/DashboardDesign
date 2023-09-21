@@ -125,3 +125,35 @@ gap: 1rem;
 .search-box i:hover{
     transform: scale(1.5);
 }
+
+/* Card Section */
+
+.card-contianer{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.main-title{
+    color: rgba(113, 99, 186, 255);
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.first-Card{
+background: rgb(229, 223, 223);
+border-radius: 10px;
+padding: 1.2rem;
+width: 290px;
+height: 150px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+transition: all 0.5s ease-in-out ;
+}
+.first-Card:hover{
+    transform: translateY(-5px);
+}
