@@ -63,6 +63,7 @@ body {
 .menu a i{
     font-size: 1.2rem;
 }
+/*TODO: make Logout to the bootom of the screen and make some customization*/
 /* .logout{
     position: absolute;
     bottom: 0;
@@ -70,3 +71,11 @@ body {
     width: 100%;
 
 } */
+
+/*Main body*/
+.main-content{
+    position: relative;
+    background:#ebe9e9;
+    width: 100%;
+    padding: 1rem;
+}
