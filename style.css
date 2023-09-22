@@ -258,6 +258,9 @@ tfoot {
 }
 tfoot td {
   padding: 15px;
+  color: #fff;
+  font-weight: bolder;
+  
 }
 .table-container button {
     color: green;
